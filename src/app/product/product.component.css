@@ -1,0 +1,21 @@
+th{
+    color: brown;
+    font-size: 35px;
+}
+h1{
+    color : rgb(205, 216, 51);
+    text-align: center;
+}
+td{
+    color: rgb(33, 2, 39);
+    font-size: 30px;
+}
+label{
+    color: darkblue;
+}
+button{
+    color: blue;
+}
+h2{
+    color: blue;
+}

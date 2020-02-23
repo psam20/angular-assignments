@@ -1,0 +1,34 @@
+<h1>
+    Product Lists : {{company}}
+</h1>
+<table border="1" align="center">
+    <th>Product Name</th>
+    <th>Quantity</th>
+    <tr *ngFor="let l of product">
+        <td>
+         {{l.name}}
+        </td>
+        <td>
+            {{l.quantity}}
+        </td>
+    </tr>
+</table>
+<br>
+<hr>
+
+<div align="center">
+    <label>
+        Product Name :- <input  type="text" #v1 (keyup.enter)="v1.value"/> 
+
+        Quantity :- <input type="number" #v2  (keyup.enter)="v2.value">
+        <br>
+        <button type="submit" (click)="addProducts(v1.value,v2.value)">
+            Add Products
+        </button>
+    </label>
+</div>
+<div align="right" >
+    <h2>
+        Submitted By : Kishan Gupta (20070275)
+    </h2>
+</div>
